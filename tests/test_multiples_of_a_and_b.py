@@ -21,7 +21,6 @@ class TestMultiplesOfAAndB(unittest.TestCase):
         # Test valid input formats
         self.assertTrue(validate_input(["3 5 10", "2 4 20"]))
         self.assertTrue(validate_input(["5 6 50", "5 9 45", "7 8 60"]))
-#        self.assertFalse(validate_input(["3 5", "2 4 20"]))
 
     def test_process_lines(self):
         # Test processing lines to find multiples
