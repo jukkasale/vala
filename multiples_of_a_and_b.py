@@ -57,7 +57,7 @@ def process_lines(lines: List[str]) -> List[Tuple[int, List[int]]]:
 def main():
     # Check that there are exactly two command-line arguments (input and output files)
     if len(sys.argv) != 3:
-        print("Usage: python my_program.py input.txt output.txt")
+        print("Usage: python multiples_of_a_and_b.py input.txt output.txt")
         return
 
     # Read the input and output file names from the command-line arguments
