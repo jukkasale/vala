@@ -17,6 +17,7 @@ Program should sort out output file by ascending order how many multiples certai
 1. Clone the repository:
 
     git clone https://github.com/jukkasale/vala.git
+    
     cd vala
 
 2. Create/Modify input.file
