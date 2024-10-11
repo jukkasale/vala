@@ -6,6 +6,10 @@ The program has to search all multiples of A and B which are below the third num
 out to screen and also write results to file which was given as the second command line argument.
 Program should sort out output file by ascending order how many multiples certain row has.
 
+If there is an error in the input file, the program will still process the entire file and print
+a message to the screen for each line that contains an error. In this case, the output file will 
+not be created. The user can then use this information to correct the contents of the input file.
+
 # Project Structure
 - `vala/multiples_of_a_and_b.py`: The main program file.
 - `vala/input.txt`: Example input file (you can modify this).
@@ -17,7 +21,7 @@ Program should sort out output file by ascending order how many multiples certai
 1. Clone the repository:
 
     git clone https://github.com/jukkasale/vala.git
-    
+
     cd vala
 
 2. Create/Modify input.file
